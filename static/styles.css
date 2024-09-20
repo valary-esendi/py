@@ -1,0 +1,26 @@
+/* General styles for the body */
+body {
+    background-color: lightgray; /* Set the background color to light gray */
+    margin: 0; /* Reset default margin */
+    padding: 20px; /* Add some padding */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Style for the text box */
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding for better appearance */
+    margin: 10px 0; /* Margin above and below the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: orange; /* Background color when idle */
+    color: black; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Change the background color of the text box when typing */
+input[type="text"]:focus {
+    background-color: teal; /* Change background color to teal on focus */
+    color: white; /* Change text color to white on focus */
+    outline: none; /* Remove default outline */
+}
